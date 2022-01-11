@@ -1,0 +1,125 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600 */
+
+body {
+background-color: hsl(217, 54%, 11%) ;
+}
+h1 {
+color: hsl(0, 0%, 100%);
+}
+p {
+color: hsl(215, 51%, 70%);
+}
+hr {
+  color: hsl(215, 51%, 70%);
+  margin:20px 0px;
+}
+.attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-bottom: 10px;
+      
+    }
+
+.attribution a {
+      color: hsl(228, 45%, 44%);
+      
+    }
+
+.card {
+width:25%;
+background-color: hsl(216, 50%, 16%);
+font-family: 'Outfit', sans-serif;;
+border-radius: 5%;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+border-color:hsl(216, 50%, 16%) ;
+}
+
+img {
+  display: block;
+  height: 75%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  
+  
+}
+
+section {
+  padding: 10%;
+
+}
+.ethFont {
+  color:hsl(178, 100%, 50%);
+  font-weight:600;
+
+}
+
+.timeLeft {
+  color: hsl(215, 51%, 70%);
+  float: right;
+  
+
+}
+
+.ethIcon {
+  margin-right: 5px;
+  float: left;
+}
+.ethTimer {
+  margin-right: 5px;
+  float: left;
+}
+.icon {
+  width: 20%;
+  height: 20%;
+  float:left;
+  border-color: white;
+  border-width: 10px;
+  margin-top: 7px;
+}
+
+.iconText {
+  color:hsl(215, 51%, 70%);
+  margin-top: 40px;
+  margin-left: 70px;
+  font-size: larger;
+}
+
+.myName {
+  color: white;
+}
